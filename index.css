@@ -1,0 +1,125 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+  }
+  
+  .main-nav {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    background-color: transparent;
+  }
+  
+  .main-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .main-menu li {
+    margin-right: 20px;
+  }
+  
+  .main-menu li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333; /* Text color */
+    background-color: #f0f0f0; /* Background color */
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .main-menu li a:hover {
+    background-color: #ddd; /* Hover background color */
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .text p:first-of-type {
+    margin-bottom: 20px; /* Add margin below the first paragraph */
+  }
+  
+  .text p {
+    margin-top: 20px; /* Add margin above all paragraphs */
+  }
+  
+  
+  .logo-docplanner {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .services {
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly */
+  }
+  
+  .col-3 {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width of columns */
+    max-width: calc(33.33% - 20px); /* Adjust max width of columns */
+    margin-bottom: 20px; /* Adjust margin between columns */
+  }
+  
+  .services__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    padding: 20px;
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 8px;
+  }
+  
+  .services__item h1 {
+    margin-bottom: 10px; /* Adjust spacing */
+  }
+  
+  .services__item h2 {
+    font-size: 14px; /* Example font size */
+    margin-bottom: 20px; /* Adjust spacing */
+  }
+  .text {
+    color: #34495E; /* Deep Slate for text color */
+    font-size: 24px; /* Adjust size as needed */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding */
+    background-color: #F5F2E7; /* Soft Beige background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.text h1 {
+    color: #00d4d4; /* Warm Blue for header */
+}
+.global-culture {
+    text-align: center; 
+    padding: 20px; /* Add padding */
+    background-color: #F5F2E7; /* Soft Beige background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.global-culture h1 {
+    color: #4A90E2; /* Warm Blue for the header */
+    font-size: 28px; /* Adjust size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+.global-culture p {
+    color: #34495E; /* Deep Slate for the paragraph */
+    font-size: 20px; /* Adjust size as needed */
+    margin-top: 10px; /* Space between header and paragraph */
+}
